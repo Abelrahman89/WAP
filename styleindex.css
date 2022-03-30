@@ -1,0 +1,15 @@
+body{
+    margin: auto;
+   
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: normal;
+    width: 500px;
+    
+}
+span:hover{
+    background-color: yellow;
+    font-size: 40px;
+
+}
+
