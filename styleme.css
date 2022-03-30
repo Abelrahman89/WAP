@@ -1,0 +1,36 @@
+.image{
+    width: 200px;
+    height: 200px;
+}
+span{
+    color:chartreuse;
+}
+body{
+    background-color: dimgrey;
+    color: white;
+    font-weight: bold;
+}
+.information{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+.header{
+    color: aqua;
+    font-size: 25px;
+   
+}
+.page{
+    
+    font-size: 35px; 
+}
+#list{
+list-style: square;
+}
+.special{
+    font-style: italic;
+}
+.current{
+    background-color: green;
+    width: 200px;
+}
