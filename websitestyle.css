@@ -1,7 +1,4 @@
-body {
-  padding: 0;
-  background: rgb(170, 170, 170, 0.6);
-}
+
 
 h3 {
   display: grid;
@@ -24,6 +21,10 @@ header {
 
 }
 
+body {
+  padding: 0;
+  background: rgb(170, 170, 170, 0.6);
+}
 #zen-summary {
   padding-left: 5px;
 }
