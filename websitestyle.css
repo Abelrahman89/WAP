@@ -10,6 +10,7 @@ h3{
     border-bottom: red;
     border-bottom-style: dashed;
     display: gris;
+    display: grid;
 }
 header{
     background: #2d6360 50% url(images/huntington.jpg) no-repeat;
