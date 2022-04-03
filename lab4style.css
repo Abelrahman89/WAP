@@ -1,3 +1,22 @@
+
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid green;
+}  
+
+.float-right {
+    width: 50%;
+    float: right;
+    padding: 20px;
+    border: 2px solid green;
+}  
 h1 {
     background-color: green;
     margin: auto;
@@ -26,7 +45,12 @@ h1 {
 select {
     width: 150;
 }
-
+.tag{
+color: red;
+font-size: 28px;
+font-weight: bold;
+text-decoration: underline;
+}
 body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
