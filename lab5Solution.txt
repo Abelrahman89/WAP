@@ -13,7 +13,8 @@ console.log(sum(arr));
 -----------------------
 question 2
 
-function getNewArray(newarr){
+
+let  getNewArray=function(newarr){
     return newarr.filter(l=>(l.length>=5 && l.includes("a")==true));
 }
 
