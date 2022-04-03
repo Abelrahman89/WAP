@@ -1,0 +1,21 @@
+question1 
+
+function sum(array){
+
+  return array.filter(a=>a>20).reduce((a,b)=>a+b);
+
+}
+
+let arr=[1,200,30,40,20];
+console.log(sum(arr));
+
+
+-----------------------
+question 2
+
+function getNewArray(newarr){
+    return newarr.filter(l=>(l.length>=5 && l.includes("a")==true));
+}
+
+let newa=["Ahmede","saraugj","joejhkla"];
+console.log(getNewArray(newa));
