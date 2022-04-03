@@ -1,0 +1,107 @@
+<html>
+
+<head>
+    <link href="./lab4style.css" type="text/css" rel="stylesheet">
+    <title>Lab4</title>
+</head>
+
+<body>
+    <h1><span> Workshop Registation </span>
+        <span>
+            <select>
+                <option>More Actions</option>
+            </select>
+        </span>
+
+    </h1>
+    <p> Register now while seats are available</p>
+    <br>
+    <form>
+        <div class="leftside">
+
+        <div>
+            <p> <label>First Name</label>
+                <input type="text" name="fisrtName" required>
+            </p>
+        </div>
+
+            <p> <label>Last Name</label>
+                <input type="text" name="lastName" required>
+            </p>
+            <p>
+            <p> <label>Company/Institution Name</label>
+                <input type="text" name="company" required>
+            </p>
+            </p>
+            <p>
+            <p> <label>Adress </label>
+                <textarea name="address" required>
+
+               </textarea>
+            </p>
+
+            <p>
+            <p> <label>City</label>
+                <input type="text" name="city" required>
+            </p>
+            </p>
+            <p> <label>Country</label>
+                <select name="country">
+                    <option selected> Egypt </option>
+                    <option> USA </option>
+                    <option> China </option>
+                    <option> Turkey </option>
+                </select>
+            </p>
+            <p> <label>state/Province/Region</label>
+
+
+                <select name="state">
+                    <option selected> Cairo </option>
+                    <option> Alexandria </option>
+                    <option> Iowa </option>
+                    <option> Istanbul </option>
+                </select>
+
+
+            </p>
+            <p> <label >Email</label>
+                <input type="email" name="email" required>
+            </p>
+            <p> <label>Phone Number</label>
+                <input type="text" name="phone" required>
+            </p>
+        </div>
+
+
+        <div>
+            <fieldset>
+                <legend> Payment Detail </legend>
+                <input type="checkbox" name="cash" id="cash"> cash
+                <p><input type="checkbox" name="cheque" id="cheque"> cheque</p>
+                <input type="checkbox" name="demand" id="demand"> Demand
+            </fieldset>      
+           
+
+        </div>
+        <div>
+            <p> <label >DD/Cheque</label>
+                <input type="checkNo" name="checkNo" >
+            </p>
+            <p> <label> Drawn On(Bank Name)</label>
+                <input type="text" name="bank" required>
+            </p>
+            <p> <label> Paybalat</label>
+                <input type="text" name="paybal" required>
+            </p>
+        </div>
+        <div>
+            <footer><input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </footer>
+
+        </div>
+    </form>
+</body>
+
+</html>
